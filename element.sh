@@ -1,4 +1,5 @@
 #!/bin/bash
+# Script to search elements in the periodic table database
 
 # This script searches for elements in the periodic table database
 # Script to search elements in the periodic table database
