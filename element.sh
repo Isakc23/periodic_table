@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script searches for elements in the periodic table database
+
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
 if [[ -z $1 ]]
