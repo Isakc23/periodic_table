@@ -1,6 +1,11 @@
 #!/bin/bash
 
 # This script searches for elements in the periodic table database
+# Script to search elements in the periodic table database
+# Author: Isakc23
+# Version: 1.0
+# Usage: ./element.sh <atomic_number|symbol|name>
+# Database: periodic_table
 
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
 
